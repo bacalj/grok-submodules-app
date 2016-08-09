@@ -1,0 +1,6 @@
+[submodule "grok-submodules-numbers-plugin"]
+	path = grok-submodules-numbers-plugin
+	url = https://github.com/bacalj/grok-submodules-numbers-plugin
+[submodule "grok-submodules-letters-plugin"]
+	path = grok-submodules-letters-plugin
+	url = https://github.com/bacalj/grok-submodules-letters-plugin
