@@ -1,9 +1,10 @@
 # Grok Submodules
-Gotta understand submodules, and this is the only way. The submodules this "app" will work with are here:
+I had to understand submodules at least a little, and I made this as a learning exercise. The repositories that have been listed as submodules for this "app" are here:
 - https://github.com/bacalj/grok-submodules-numbers-plugin
 - https://github.com/bacalj/grok-submodules-letters-plugin
 
 ## How to use this repo to practice submodule stuff
+This project, when its submodules are included and running, lists some letters and some numbers.  It doesn't work until you get the submodules in. You can change the letters and numbers that appear on the page by checking out different commits within the submoudles.  How to do it:
 
 1. Clone down the repository
 ```bash
@@ -15,8 +16,9 @@ $ git clone https://github.com/bacalj/grok-submodules-app.git
 $ cd grok-submodules-app
 $ php -S localhost:1122
 ```
+You will just see a page that says "Letters: [empty box]" and "Numbers: [empty box]". The actual letters and numbers are going to be pulled in as features in a submodule. 
 
-4. You will also see there are two empty directories in your app
+3. You will also see there are two empty directories in your app
 ```bash
 $ ls
 grok-submodules-letters-plugin  
