@@ -16,7 +16,12 @@ $ git clone https://github.com/bacalj/grok-submodules-app.git
 $ cd grok-submodules-app
 $ php -S localhost:1122
 ```
-You will just see a page that says "Letters: [empty box]" and "Numbers: [empty box]". The actual letters and numbers are going to be pulled in as features in a submodule. 
+You will just see a page like this. 
+
+![image of empty letters and numbers boxes](no_features_yet.png)
+
+
+The actual letters and numbers are going to be pulled in as features ...in a submodule 😨. 
 
 3. You will also see there are two empty directories in your app
 ```bash
